@@ -17,9 +17,23 @@
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.23" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.7" />
+    <PackageReference Include="Rsk.AspNetCore.Fido" Version="1.3.0" />
+    <PackageReference Include="Rsk.AspNetCore.Fido.EntityFramework" Version="1.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.23" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.23" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.Authentication.Google" />
+    <None Remove="Rsk.AspNetCore.Fido" />
+    <None Remove="Rsk.AspNetCore.Fido.EntityFramework" />
+    <None Remove="Views\Fido\" />
+    <None Remove="Microsoft.AspNetCore.Identity.UI" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Fido\" />
   </ItemGroup>
 </Project>
